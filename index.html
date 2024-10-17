@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Geometizer App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <h1>The Geometizer App</h1>
+      <p id="description"><i>
+        ''This program calculates and displays the circumference and area of a circle using the
+        radius, applying the formulas C = 2πr and A = πr² with π approximated as
+        3.142.''</i>
+      </p>
+      <label for="radius">Radius Of A Circle:</label>
+      <input type="number" id="radius" placeholder="Please enter radius of circle"><br>
+      <p id="para"></p>
+      <button id="btn" onclick="Calculate()">Calculate</button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
